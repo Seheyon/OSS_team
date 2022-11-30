@@ -1,6 +1,6 @@
 const testmenu = function(rtm, channel) {
   const axios = require('axios');
-  const cheerio = require('cheerio');
+  //const cheerio = require('cheerio');
 
   async function webScraping(url, selector) {
     let res = [];
