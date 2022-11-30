@@ -24,14 +24,18 @@ const rtm = new RTMClient(token);
 
 const assert = require('assert');
 const greeting = require('./greeting');
+const today = require('./todaymenu');
 
 describe('테스트 시작', () => {
   it('greeting 함수 테스트', (done) => {
-    assert.equal(greeting(rtm, channel), 'success');
-    assert.equal(greeting(rtm, channel), 'success');
-    assert.equal(greeting(rtm, channel), 'success');
-    assert.equal(greeting(rtm, channel), 'success');
-    assert.equal(greeting(rtm, channel), 'success');
+    //assert.equal(greeting(rtm, channel), 'success');
+    //assert.equal(greeting(rtm, channel), 'success');
+    //assert.equal(greeting(rtm, channel), 'success');
+    //assert.equal(greeting(rtm, channel), 'success');
+    //assert.equal(greeting(rtm, channel), 'success');
+    assert.equal(today(rtm, channel), 'Windows에서 Docker Desktop 없이 Docker 환경 구성하기 (WSL2 Ubuntu 서브모듈 활용)');
     done();
   });
 });
+
+
