@@ -33,7 +33,7 @@ describe('테스트 시작', () => {
     //assert.equal(greeting(rtm, channel), 'success');
     //assert.equal(greeting(rtm, channel), 'success');
     //assert.equal(greeting(rtm, channel), 'success');
-    assert.equal(today(rtm, channel), 'Windows에서 Docker Desktop 없이 Docker 환경 구성하기 (WSL2 Ubuntu 서브모듈 활용)');
+    assert.equal(todaymenu(rtm, channel), 'Windows에서 Docker Desktop 없이 Docker 환경 구성하기 (WSL2 Ubuntu 서브모듈 활용)');
     done();
   });
 });
