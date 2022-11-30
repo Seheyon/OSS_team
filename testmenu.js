@@ -1,4 +1,4 @@
-const todaymenu = function(rtm, channel) {
+const testmenu = function(rtm, channel) {
   const axios = require('axios');
   const cheerio = require('cheerio');
 
@@ -19,4 +19,4 @@ const todaymenu = function(rtm, channel) {
   });
 }
 
-module.exports = todaymenu;
+module.exports = testmenu;
