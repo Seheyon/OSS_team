@@ -24,7 +24,7 @@ const rtm = new RTMClient(token);
 
 const assert = require('assert');
 const greeting = require('./greeting');
-const today = require('./todaymenu');
+const today = require('./testmenu');
 
 describe('테스트 시작', () => {
   it('greeting 함수 테스트', (done) => {
