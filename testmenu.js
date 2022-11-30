@@ -1,4 +1,4 @@
-const todaymenu(rtm, channel) {
+const todaymenu = function(rtm, channel) {
   const axios = require('axios');
   const cheerio = require('cheerio');
 
